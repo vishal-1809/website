@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0%;
+    height: 10vh;
+}
+
+#logo img {
+    height: 59px;
+    /* margin: 3px 48vw; */
+    margin-left: 50px;
+    padding-top: 6px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: "Baloo Bhai", cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.navg {
+    margin-left: 40vw;
+    margin-top: -7vh;
+}
+
+.container {
+    display: flex;
+}
+
+#cont1 {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+
+#cont2 {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+
+#cont3 {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+
+.ht {
+    height: 20vh;
+    width: 9vw;
+    margin-left: 10vw;
+}
+
+.cs {
+    height: 20vh;
+    width: 9vw;
+    margin-left: 10vw;
+}
+
+.javasc {
+    height: 20vh;
+    width: 9vw;
+    margin-left: 10vw;
+}
+
+.parainbox {
+    display: block;
+    margin-block-start: 11em;
+    margin-block-end: 1em;
+    margin-inline-start: -250px;
+    margin-inline-end: 0px;
+}
+
+.pr {
+    font-family: "Baloo Bhai", cursive;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+/* Responsive  */
+
+/* ipad  */
+@media screen and (max-width: 1440px) {
+    body {
+        background-color: white;
+        background-attachment: fixed;
+    }
+
+    header {
+        height: 10vh;
+        position: sticky;
+        top: 0%;
+        width: auto;
+    }
+
+    .navg {
+        margin-left: 37vw;
+    }
+
+    #logo img {
+        height: 55px;
+        /* margin: 3px 49vw; */
+        margin-left: 50px;
+        margin-top: 1px;
+    }
+
+    .container {
+        display: inherit;
+    }
+
+    #cont1 {
+        height: 30vh;
+        width: 50vw;
+        justify-content: center;
+        margin: 30px;
+        margin-left: 350px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont2 {
+        height: 30vh;
+        width: 50vw;
+        justify-content: center;
+        margin: 30px;
+        margin-left: 350px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont3 {
+        height: 30vh;
+        width: 50vw;
+        justify-content: center;
+        margin: 30px;
+        margin-left: 350px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+
+    .ht {
+        height: 10vh;
+        width: 9vw;
+        margin-left: 20vw;
+    }
+    
+    .cs {
+        height: 10vh;
+        width: 9vw;
+        margin-left: 20vw;
+    }
+    
+    .javasc {
+        height: 10vh;
+        width: 9vw;
+        margin-left: 20vw;
+    }
+
+    .parainbox {
+        display: block;
+        margin-block-start: 5em;
+        margin-block-end: 1em;
+        margin-inline-start: -260px;
+        margin-inline-end: 0px;
+    }
+}
+
+/* small laptop  */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 10vh;
+        width: 1024px;
+        position: sticky;
+        top: 0%;
+    }
+
+    #cont1 {
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont2 {
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont3 {
+        height: 50vh;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+
+    .parainbox {
+        display: block;
+        margin-block-start: 6em;
+        margin-block-end: 1em;
+        margin-inline-start: -210px;
+        margin-inline-end: 0px;
+    }
+}
+
+/* tablet  */
+@media screen and (max-width: 768px) {
+    header {
+        height: 10vh;
+        width: 1024px;
+        position: sticky;
+        top: 0%;
+    }
+
+    .navg {
+        margin-left: 330px;
+    }
+
+    #cont1 {
+        height: 70vh;
+        width: 100vw;
+        margin-left: 200px;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont2 {
+        height: 70vh;
+        width: 100vw;
+        margin-left: 200px;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont3 {
+        height: 70vh;
+        width: 100vw;
+        margin-left: 200px;
+        display: flex;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+
+    .ht {
+        height: 22vh;
+        width: 13vw;
+        margin-left: 45vw;
+    }
+    
+    .cs {
+        height: 22vh;
+        width: 13vw;
+        margin-left: 45vw;
+    }
+    
+    .javasc {
+        height: 22vh;
+        width: 13vw;
+        margin-left: 45vw;
+    }
+
+    .parainbox {
+        display: block;
+        margin-block-start: 12em;
+        margin-block-end: 1em;
+        margin-inline-start: -260px;
+        margin-inline-end: 0px;
+    }
+
+    .pr {
+        font-family: "Baloo Bhai", cursive;
+        text-align: center;
+        margin-left: 300px;
+        color: aliceblue;
+    }
+}
+
+/* Mobile  */
+@media screen and (max-width: 440px) {
+    header {
+        height: 18vh;
+        width: 640px;
+        position: sticky;
+        top: 0%;
+    }
+
+    #logo img {
+        height: 59px;
+        margin-top: 20px;
+    }
+
+    .navg {
+        margin-left: 140px;
+    }
+
+    .container {
+        display: inherit;
+    }
+
+    #cont1 {
+        height: 60vh;
+        width: 350px;
+        justify-content: center;
+        margin-left: 130px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont2 {
+        height: 60vh;
+        width: 350px;
+        justify-content: center;
+        margin-left: 130px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont3 {
+        height: 60vh;
+        width: 350px;
+        justify-content: center;
+        margin-left: 130px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+
+    .ht {
+        height: 20vh;
+        width: 20vw;
+        margin-left: 45vw;
+    }
+    
+    .cs {
+        height: 20vh;
+        width: 20vw;
+        margin-left: 45vw;
+    }
+    
+    .javasc {
+        height: 20vh;
+        width: 20vw;
+        margin-left: 45vw;
+    }
+
+    .parainbox {
+        display: block;
+        margin-block-start: 9em;
+        margin-block-end: 1em;
+        margin-inline-start: -220px;
+        margin-inline-end: 0px;
+    }
+
+    .pr {
+        font-family: "Baloo Bhai", cursive;
+        margin-left: 80vw;
+        color: aliceblue;
+    }
+}
+
+/* Android  */
+@media screen and (max-width: 300px) {
+    header {
+        height: 18vh;
+        width: 640px;
+        position: sticky;
+        top: 0%;
+    }
+
+    #logo img {
+        height: 59px;
+        margin-top: 20px;
+    }
+
+    .navg {
+        margin-left: 140px;
+    }
+
+    .container {
+        display: inherit;
+    }
+
+    #cont1 {
+        height: 60vh;
+        width: 425px;
+        justify-content: center;
+        margin-left: 110px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont2 {
+        height: 60vh;
+        width: 425px;
+        justify-content: center;
+        margin-left: 110px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+    
+    #cont3 {
+        height: 60vh;
+        width: 425px;
+        justify-content: center;
+        margin-left: 110px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.4;
+    }
+
+    .ht {
+        height: 20vh;
+        width: 20vw;
+        margin-left: 68vw;
+    }
+    
+    .cs {
+        height: 20vh;
+        width: 20vw;
+        margin-left: 68vw;
+    }
+    
+    .javasc {
+        height: 20vh;
+        width: 20vw;
+        margin-left: 68vw;
+    }
+
+    .parainbox {
+        display: block;
+        margin-block-start: 9em;
+        margin-block-end: 1em;
+        margin-inline-start: -220px;
+        margin-inline-end: 0px;
+    }
+
+    .pr {
+        font-family: "Baloo Bhai", cursive;
+        margin-left: 300px;
+        color: aliceblue;
+    }
+}
+
+
+
+
